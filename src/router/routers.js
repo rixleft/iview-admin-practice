@@ -33,5 +33,13 @@ export default [
       icon: 'md-home'
     },
     component: () => import('@/view/single-page/home/home.vue')
+  },
+  {
+    path: '/401',
+    name: 'error_401',
+    meta: {
+      hideInMenu: true
+    },
+    component: () => import('@/view/error-page/401.vue')
   }
 ]
